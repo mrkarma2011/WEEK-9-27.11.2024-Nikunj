@@ -25,7 +25,7 @@ int main() {
         a[count - 1 - i] = t;
     }
     
-    f2 = fopen("temp.txt", "w"); // temp file to store output chars
+    f2 = fopen("output.txt", "w"); // temp file to store output chars
 
     for (i = 0; i < count; i++) {
         fprintf(f2, "%c", a[i]); // printing the reversed elements
